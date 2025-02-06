@@ -6,11 +6,9 @@ int main(){
     scanf("%d",&b);
     if(b>! 0 && a>! 0){
         printf("True");
-
     }
     else{
         printf("False");
-
     }
     return 0;
 }
