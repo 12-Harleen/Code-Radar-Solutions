@@ -1,8 +1,9 @@
 #include <stdio.h>
 
-int main(){
+int main()
+{
     char welcome[100];
-    scanf("%99s", x);
+    scanf("%s",&welcome);
     printf("You entered: %s",welcome);
     return 0;
 }
