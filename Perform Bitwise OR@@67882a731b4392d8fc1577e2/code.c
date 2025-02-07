@@ -1,15 +1,12 @@
 #include <stdio.h>
 
 int main(){
-    int a,b;
+    int a,b,result;
     scanf("%d",&a);
     scanf("%d",&b);
-    if(a | b){
-        printf("%d");
+    result=a|b;
 
-    }
-    else{
-        printf("%d");
+        printf("%d",result);
 
     }
     return 0;
